@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.logo{
+    display: flex;
+    background-color: #1a1a85;
+    color:aliceblue;
+    height:35px;
+    
+}
+.logo h2{
+    font-size:30px ;
+    font-weight: 500px;
+    font-style: italic;
+}
+.nav-links{
+    background-color: rgba(204, 206, 206, 0.932);
+ justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+
+}
+.nav-link{
+   
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 20px;
+    color:#1a1a85;
+    font-size: 20px;
+    font-weight: 40px;
+    text-decoration: none;
+}
+.nav-link-profile{
+    display:flex;
+    justify-content: flex-end;
+    
+
+}
